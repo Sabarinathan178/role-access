@@ -13,7 +13,7 @@ app.use(cors()); // Invoke cors() correctly
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb://localhost:27017/rbac", {
+  .connect("mongodb+srv://sabari:sabari@cluster0.yx5xsvi.mongodb.net/rbac?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
